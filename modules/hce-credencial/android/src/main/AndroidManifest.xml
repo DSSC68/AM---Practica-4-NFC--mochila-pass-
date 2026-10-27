@@ -1,0 +1,25 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Este manifiesto se fusiona con el de la app al compilar el APK -->
+
+    <!-- Permisos: usar NFC y vibrar. HCE no es obligatorio para instalar la app -->
+
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-feature android:name="android.hardware.nfc.hce" android:required="false" />
+
+    <application>
+        <!-- Servicio HCE: Android lo invoca cuando el lector manda SELECT con nuestro AID -->
+        <service
+            android:name="expo.modules.hcecredencial.CredencialApduService"
+            android:exported="true"
+            android:permission="android.permission.BIND_NFC_SERVICE">
+            <intent-filter>
+                <action android:name="android.nfc.cardemulation.action.HOST_APDU_SERVICE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.nfc.cardemulation.host_apdu_service"
+                android:resource="@xml/apduservice" />
+        </service>
+    </application>
+</manifest>

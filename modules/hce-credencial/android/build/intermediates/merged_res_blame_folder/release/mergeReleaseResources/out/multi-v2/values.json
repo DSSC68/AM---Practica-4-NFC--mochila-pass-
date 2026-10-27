@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "expo.modules.hcecredencial.hce-credencial-mergeReleaseResources-0:/values/values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ricas\\OneDrive\\Escritorio\\AM - Practica 4\\mochila-pass\\modules\\hce-credencial\\android\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "131,55",
+                        "endColumns": "77,75",
+                        "endOffsets": "204,126"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,133",
+                        "endColumns": "77,75",
+                        "endOffsets": "128,204"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "expo.modules.hcecredencial.hce-credencial-release-2:/values/values.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ricas\\OneDrive\\Escritorio\\AM - Practica 4\\mochila-pass\\modules\\hce-credencial\\android\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "131,55",
+                        "endColumns": "77,75",
+                        "endOffsets": "204,126"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,133",
+                        "endColumns": "77,75",
+                        "endOffsets": "128,204"
+                    }
+                }
+            ]
+        }
+    ]
+}

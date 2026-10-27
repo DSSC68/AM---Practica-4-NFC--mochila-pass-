@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Textos que Android muestra en Ajustes > NFC para este servicio -->
+<resources>
+    <string name="hce_service_description">Credencial Mochila Pass</string>
+    <string name="hce_aid_description">Acceso al hostal Mochila Pass</string>
+</resources>

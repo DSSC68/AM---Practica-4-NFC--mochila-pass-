@@ -1,0 +1,7 @@
+{
+  "name": "hce-credencial",
+  "version": "1.0.0",
+  "description": "Emulacion de tarjeta NFC (HCE) para enviar el ID de usuario por APDU",
+  "main": "index.js",
+  "private": true
+}

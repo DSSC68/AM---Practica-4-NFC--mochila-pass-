@@ -1,4 +1,0 @@
-expo.modules.hcecredencial
-string hce_aid_description
-string hce_service_description
-xml apduservice

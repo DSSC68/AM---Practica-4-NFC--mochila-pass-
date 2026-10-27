@@ -1,3 +1,0 @@
-int string hce_aid_description 0x0
-int string hce_service_description 0x0
-int xml apduservice 0x0

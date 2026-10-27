@@ -42,3 +42,7 @@ yarn-error.*
 
 # generated native folders (se regeneran con expo prebuild)
 /android
+
+# archivos de compilacion de Gradle del modulo nativo
+modules/**/android/build/
+modules/**/android/.gradle/
